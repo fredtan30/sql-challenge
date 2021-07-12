@@ -31,7 +31,7 @@ Once we created the tables, we import each of the data sets into the correspondi
 
 https://github.com/fredtan30/sql-challenge/blob/main/EmployeeSQL/Schema.sql
 
-Challenges encounter is when importing files from csv into the respective table especially on DATE type
+Challenges encountered when importing files from csv into the respective table especially on DATE type
 
 
 3rd Phase - Data Analysis
@@ -58,7 +58,7 @@ The Analysis can be found under this link below or EmployeeSQL in this repositor
 
 https://github.com/fredtan30/sql-challenge/blob/main/EmployeeSQL/data_analysis.sql
 
-Challenges is on converting date from string to date using the to_date function
+Challenges were on converting date from string to date using the to_date function
 
 
 
