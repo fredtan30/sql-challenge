@@ -29,4 +29,38 @@ From the ERD Diagram, we create the table schema of each data sets and we set th
 
 Once we created the tables, we import each of the data sets into the corresponding SQL table and display the table
 
+https://github.com/fredtan30/sql-challenge/blob/main/EmployeeSQL/Schema.sql
+
+Challenges encounter is when importing files from csv into the respective table especially on DATE type
+
+
+3rd Phase - Data Analysis
+
+Once the all database have been created, we have to perform these analysis below
+
+1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+
+2. List first name, last name, and hire date for employees who were hired in 1986.
+
+3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+
+4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+
+5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+
+6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+
+7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+
+8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+The Analysis can be found under this link below or EmployeeSQL in this repository
+
+https://github.com/fredtan30/sql-challenge/blob/main/EmployeeSQL/data_analysis.sql
+
+Challenges is on converting date from string to date using the to_date function
+
+
+
+
 
