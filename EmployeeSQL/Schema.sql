@@ -47,6 +47,7 @@ CREATE TABLE "titles" (
      )
 );
 
+----DEPENDENCIES
 ALTER TABLE "departments" ADD CONSTRAINT "fk_departments_dept_no" FOREIGN KEY("dept_no")
 REFERENCES "dept_emp" ("dept_no");
 
@@ -64,4 +65,12 @@ REFERENCES "titles" ("title_id");
 
 ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "dept_emp" ("emp_no");
+-----------------
+
+--Display Tables
+SELECT * FROM employees;
+SELECT * FROM salaries;
+SELECT * FROM dept_manager;
+SELECT * FROM departments;
+SELECT * FROM dept_emp;
 
