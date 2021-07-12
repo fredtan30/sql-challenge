@@ -23,4 +23,10 @@ Inspect the CSV and draw out the ERD Diagram using QuickDBD
 ![A Mystery ERD](https://user-images.githubusercontent.com/83207549/125291304-94589480-e364-11eb-8a09-5aa06b276e19.png)
 
 
+2nd Phase - Data Engineering
+
+From the ERD Diagram, we create the table schema of each data sets and we set the data types, primary key, foreign keys and other constraints, we commit this by importing the  ERD diagram into our Postgres SQL
+
+Once we created the tables, we import each of the data sets into the corresponding SQL table and display the table
+
 
